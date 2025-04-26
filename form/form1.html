@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form for user information</title>
+  <style>
+    body{
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    fieldset{
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+
+    }
+  </style>
+</head>
+<body>
+  
+  <fieldset style="width:500px; height:530px;">
+    <legend style="font-size:18px ;"
+    > User Personal Information</legend>
+    <label for="name">Enter Your Full Name :</label>
+    <input type="text" id="name" name="username" style="border-radius: 3px; height: 20px;" >
+    <label for="email">Enter Your Email :</label>
+    <input type="email" id="email" name="userMail" style="border-radius: 3px; height: 20px;" >
+    <label for="pssword">Enter Your Full Password :</label>
+    <input type="password" id="pssword" name="userpssword" style="border-radius: 3px; height: 20px;" >
+    <label for="conpssword">Confirm Your Password :</label>
+    <input type="password" id="conpssword" name="userpssword" style="border-radius: 3px; height: 20px;" >
+    <label for="gender">Enter Your Gender :</label>
+    <label for="gen">Male</label>
+    <input type="radio" id="gen" name="gender">
+    <label for="gen1">Female</label>
+    <input type="radio" id="gen1" name="gender">
+    <label for="gen2">Others</label>
+    <input type="radio" id="gen2" name="gender">
+    <label for="dob">Enter Your Date Of Birth :</label>
+    <input type="date" id="dob" name="userDateOfBirth" style= "border-radius: 3px; height: 25px;">
+    <label for="address">Enter Your Address :</label>
+    <select name="Locations" id="Loc" style="border-radius: 3px; height: 25px;">
+    <option value="Choose the Location">--Choose Your Location--</option>
+      <option value="Noida">Noida</option>
+      <option value="Uttarpradesh">Uttarpradesh</option>
+      <option value="Himachal">Himachal</option>
+      <option value="Andrapradesh">Andrapradesh</option>
+      <option value="Shimla">Shimla</option>
+    </select><br>
+    <button style="width: 70px; height: 30px; border-radius: 3px;">Submit</button>
+  
+  </fieldset>
+  
+</body>
+</html>
