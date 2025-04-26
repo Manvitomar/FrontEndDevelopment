@@ -1,0 +1,17 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.pannel{
+  background-color: rgb(23, 21, 21);
+  height: 60px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.pannel a{
+  margin-left: 80px ;
+  color: white;
+}
